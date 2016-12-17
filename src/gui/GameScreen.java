@@ -128,7 +128,7 @@ public class GameScreen extends JFrame implements KeyListener{
 		int keyPad = ke.getKeyCode();
 		int x = plane1.getX();
 		int y = plane1.getY();
-
+                
 		if (keyPad == KeyEvent.VK_LEFT) {
 			if(x >= 187){
 				x -= 7;
