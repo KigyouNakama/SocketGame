@@ -1,3 +1,5 @@
+package gui;
+
 public class SocketGame {
 	public static void main(String[] args) {
 		GameScreen gs = new GameScreen();

@@ -1,3 +1,5 @@
+package gui;
+
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.awt.EventQueue;
@@ -95,15 +97,15 @@ public class GameScreen extends JFrame implements KeyListener{
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		getContentPane().setLayout(null);
 
-		plane1.setIcon(new ImageIcon("../assets/plane1.png"));
+		plane1.setIcon(new ImageIcon(this.getClass().getResource("/assets/plane1.png")));
 		getContentPane().add(plane1);
 		plane1.setBounds(420, 505, 50, 93);
 
-		plane2.setIcon(new ImageIcon("../assets/plane2.png"));
+		plane2.setIcon(new ImageIcon(this.getClass().getResource("/assets/plane2.png")));
 		getContentPane().add(plane2);
 		plane2.setBounds(420, 3, 50, 93);
 
-		background.setIcon(new ImageIcon("../assets/background.jpg"));
+		background.setIcon(new ImageIcon(this.getClass().getResource("/assets/background.jpg")));
 		getContentPane().add(background);
 		background.setBounds(0, 0, 900, 600);
 
