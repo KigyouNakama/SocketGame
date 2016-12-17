@@ -94,7 +94,6 @@ public class GameScreen extends JFrame implements KeyListener{
 		getContentPane().add(panelInfo);
 		panelInfo.setBounds(0, 0, 180, 598);
 
-		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		getContentPane().setLayout(null);
 
 		plane1.setIcon(new ImageIcon(this.getClass().getResource("/assets/plane1.png")));
@@ -110,7 +109,6 @@ public class GameScreen extends JFrame implements KeyListener{
 		background.setBounds(0, 0, 900, 600);
 
 		setBounds(0, 0, 900, 600);
-		setResizable(false);
 		setTitle("Fighter Jet Game");
 
 		addKeyListener(this);

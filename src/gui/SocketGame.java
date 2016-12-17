@@ -2,7 +2,7 @@ package gui;
 
 public class SocketGame {
 	public static void main(String[] args) {
-		GameScreen gs = new GameScreen();
-		gs.setVisible(true);
+		StartScreen ss = new StartScreen();
+		ss.setVisible(true);
 	}
 }
