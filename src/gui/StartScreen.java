@@ -41,7 +41,7 @@ public class StartScreen extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        icon.setIcon(new javax.swing.ImageIcon("/home/mylaptop/NetBeansProjects/SocketGame/src/assets/logo.png")); // NOI18N
+        icon.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("/assets/logo.png"))); // NOI18N
         getContentPane().add(icon);
         icon.setBounds(50, 30, 330, 150);
 
@@ -94,7 +94,7 @@ public class StartScreen extends javax.swing.JFrame {
         getContentPane().add(btnExit);
         btnExit.setBounds(150, 380, 140, 50);
 
-        background.setIcon(new javax.swing.ImageIcon("/home/mylaptop/NetBeansProjects/SocketGame/src/assets/background.jpg")); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("/assets/background.jpg"))); // NOI18N
         getContentPane().add(background);
         background.setBounds(-1, -3, 440, 510);
 
