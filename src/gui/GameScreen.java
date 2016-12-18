@@ -33,6 +33,7 @@ public class GameScreen extends JFrame implements KeyListener{
 
 	public GameScreen() {
 		initComponents();
+		setBounds(0, 0, 900, 600);
 	}
 
 	private void initComponents() {
@@ -107,8 +108,6 @@ public class GameScreen extends JFrame implements KeyListener{
 		background.setIcon(new ImageIcon(this.getClass().getResource("/assets/background.jpg")));
 		getContentPane().add(background);
 		background.setBounds(0, 0, 900, 600);
-
-		setBounds(0, 0, 900, 600);
 		setTitle("Fighter Jet Game");
 
 		addKeyListener(this);
