@@ -85,11 +85,11 @@ public class StartScreen extends javax.swing.JFrame {
         getContentPane().add(exitBtn);
         exitBtn.setBounds(150, 360, 120, 40);
 
-        labelIcon.setIcon(new javax.swing.ImageIcon("/home/mylaptop/NetBeansProjects/AirJetGame/src/assets/logo.png")); // NOI18N
+        labelIcon.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("/assets/logo.png"))); // NOI18N
         getContentPane().add(labelIcon);
         labelIcon.setBounds(40, 10, 340, 150);
 
-        background.setIcon(new javax.swing.ImageIcon("/home/mylaptop/NetBeansProjects/AirJetGame/src/assets/background.jpg")); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("assets/background.jpg"))); // NOI18N
         getContentPane().add(background);
         background.setBounds(-1, -3, 420, 470);
 
