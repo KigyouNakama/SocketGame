@@ -89,7 +89,7 @@ public class StartScreen extends javax.swing.JFrame {
         getContentPane().add(labelIcon);
         labelIcon.setBounds(40, 10, 340, 150);
 
-        background.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("assets/background.jpg"))); // NOI18N
+        background.setIcon(new javax.swing.ImageIcon(this.getClass().getResource("/assets/background.jpg"))); // NOI18N
         getContentPane().add(background);
         background.setBounds(-1, -3, 420, 470);
 
