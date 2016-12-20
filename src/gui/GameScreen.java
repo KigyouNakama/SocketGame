@@ -53,6 +53,8 @@ public class GameScreen extends JFrame implements KeyListener {
 	
 	private JPanel panelInfo = new JPanel();
 
+	static boolean inGame = true;
+
 	public GameScreen() {
 		initComponents();
 	}
